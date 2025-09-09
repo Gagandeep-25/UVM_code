@@ -67,6 +67,6 @@ endclass
 
 module tb;
   initial begin
-    run_test("test");
+    run_test("test"); // build phase executes in a top down method 
   end
 endmodule
