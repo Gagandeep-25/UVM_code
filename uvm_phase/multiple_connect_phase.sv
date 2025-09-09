@@ -75,6 +75,6 @@ endclass
 
 module tb;
   initial begin
-    run_test("test");// the execution of connect_phase follows bottom to top approach
+    run_test("test");// the execution of connect_phase and other phases follows bottom to top approach
   end
 endmodule
