@@ -70,3 +70,4 @@ module tb;
     run_test("test"); //only build phase executes in a top down method where as others follow bottom to top approach  
   end
 endmodule
+// all build phases execute on a lexicographic order i.e in an alphabetical order , so first driver and then monitor 
