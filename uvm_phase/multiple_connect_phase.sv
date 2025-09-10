@@ -78,3 +78,4 @@ module tb;
     run_test("test");// the execution of connect_phase and other phases follows bottom to top approach
   end
 endmodule
+//the execution of build phases also follow lexicographical order , alphabetical order
