@@ -11,7 +11,7 @@ class producer extends uvm_component;
   function new(string path = "producer", uvm_component parent = null);
     super.new(path,parent);
     
-    send = new("sned",this);
+    send = new("send",this);
     
   endfunction
   
