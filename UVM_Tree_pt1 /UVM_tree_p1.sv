@@ -33,7 +33,7 @@ class b extends uvm_component;
   
 endclass 
 
-/////// parent class c
+/////// parent class c <- parent of a and b 
 
 class c extends uvm_component;
   `uvm_component_utils(c)
