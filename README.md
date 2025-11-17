@@ -27,11 +27,11 @@ Each testbench follows standard UVM hierarchy:
 ```
 uvm_top
 ├── env
-│   ├── agent1
+│   ├── agent
 │   │   ├── driver
 │   │   ├── monitor
 │   │   └── sequencer
-│   ├── agent2
+│   |
 │   ├── scoreboard
 │   └── coverage
 ├── sequences
